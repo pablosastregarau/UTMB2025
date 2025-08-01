@@ -22,8 +22,9 @@ Scraping: Iterative ID-based extraction from live.utmb.world
 
 Modeling: Regression and ranking models (XGBoost?)
 
-## Structure
+## Project Structure
 
+```
 utmb-prediction-2025/
 │
 ├── data/                  # Raw and processed data
@@ -34,6 +35,7 @@ utmb-prediction-2025/
 │   └── predictor.py
 ├── README.md
 └── requirements.txt
+```
 
 ## Author
 Pablo Sastre-Garau – Trail runner & data science enthusiast
