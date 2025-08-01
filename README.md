@@ -25,14 +25,24 @@ Modeling: Regression and ranking models (XGBoost?)
 ## Project Structure
 
 ```
-utmb-prediction-2025/
+UTMB2025/
 │
-├── data/                  # Raw and processed data
-├── notebooks/             # EDA and modeling notebooks
-├── src/                   # Scraping, cleaning, and prediction scripts
-│   ├── scraper.py
-│   ├── cleaner.py
-│   └── predictor.py
+├── data/
+│   ├── UTMB2017_raw_results.csv
+│   ├── ...
+│   └── UTMB2024_raw_results.csv                  # Raw data
+├── notebooks/
+│   ├── 00_apirequests.ipynb                      # Using the UTMB API
+│   ├── 01_eda.ipynb                              # Data exploration
+│   ├── 02_cleaning_raw_to_bronze.ipynb 
+│   ├── 03_cleaning_bronze_to_silver.ipynb 
+│   └── 04_cleaning_silver_to_gold.ipynb          # Medallion architecture
+├── src/
+│   ├── forecast.py           
+│   └── utils.py
+├── outputs/
+│   ├── graphs/           
+│   └── results/
 ├── README.md
 └── requirements.txt
 ```
