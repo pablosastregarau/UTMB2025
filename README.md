@@ -12,7 +12,7 @@ Train a predictive model to estimate rankings or finish times for UTMB 2025
 
 Publish a forecast leaderboard ahead of the 2025 edition
 
-## Technologies
+## Technologies :
 
 Language: Python, (Java?)
 
@@ -22,7 +22,7 @@ Scraping: Iterative ID-based extraction from live.utmb.world
 
 Modeling: Regression and ranking models (XGBoost?)
 
-## Project Structure
+## Project Structure :
 
 ```
 UTMB2025/
@@ -47,11 +47,11 @@ UTMB2025/
 └── requirements.txt
 ```
 
-## Author
-Pablo Sastre-Garau – Trail runner & data science enthusiast
+## Author :
+Pablo Sastre-Garau – Trail enthusiast
 
-## Project Status
+## Project Status :
 🟢 [Day-28] Active – Forecast release scheduled before UTMB 2025
 
-## License
+## License :
 This project is licensed under the MIT License. See the LICENSE file for more details.
