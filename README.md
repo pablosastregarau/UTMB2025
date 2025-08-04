@@ -4,7 +4,7 @@ This project aims to predict the results of the UTMB 2025 (Ultra-Trail du Mont-B
 
 ## Goals :
 
-Aggregate UTMB results from 2017 to 2024
+Aggregate UTMB results from 2003 to 2024
 
 Build a structured dataset with runner characteristics (gender, country, age, DNF history, past performance, etc.)
 
