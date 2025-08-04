@@ -1,10 +1,9 @@
 # Data
 
-This folder contains all the raw UTMB results files used in the project.
+These folder contains all the raw data used in the project.
 
-We focus on the years 2003 to 2024 results
+Folders :
 
-Each file follows the naming convention:  
-**utmb_<YEAR>_results.csv**
-
-These files are fetched using the official UTMB API and stored in this folder for further analysis.
+- raw_results = from the 2003 to 2025 edition of the UTMB.
+- raw_runners = all the differents runners referenced in the UTMB ranking website.
+- forecasting_set = contains the best historical performance for 1550 unique runners from UTMB 2022 to 2024, used to forecast the 2025 edition (hypothetical set).
